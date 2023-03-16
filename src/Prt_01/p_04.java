@@ -14,9 +14,9 @@ public class p_04 {
 		
 		String cf = scan.next();
 		
-		if(cf.compareToIgnoreCase("f")) {
+		if(cf.compareToIgnoreCase("f")==0) {
             System.out.println((9.0/5.0)*tem+32);
-        }else if(cf.compareToIgnoreCase("c")){
+        }else if(cf.compareToIgnoreCase("c")==0){
             System.out.println((9.0/5.0)*(tem-32));
         }
 	}
