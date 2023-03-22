@@ -21,9 +21,9 @@ public class dollor_10 {
 				pay %= i;
 			}
 			if (pay > 10000 || pay < 5000) {
-				i /= 5;
+				pay /= 5;
 			} else if (pay < 10000 && pay > 5000) {
-				i /= 2;
+				pay /= 2;
 			} 
 			j -= 1;
 		}
